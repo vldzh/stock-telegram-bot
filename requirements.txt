@@ -1,0 +1,10 @@
+aiogram==3.*
+python-dotenv==1.*
+yfinance==0.2.*
+pandas==2.*
+numpy==1.*
+scikit-learn==1.*
+statsmodels==0.14.*
+tensorflow==2.*
+matplotlib==3.*
+scipy==1.*
