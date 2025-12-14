@@ -460,7 +460,6 @@ async def main():
 
 
 if __name__ == "__main__":
-    # asyncio.run(main()) # Исходная строка, закомментирована для совместимости с Colab
     try:
         loop = asyncio.get_running_loop() # Пытаемся получить текущий запущенный цикл событий
     except RuntimeError:
