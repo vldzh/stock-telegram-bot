@@ -20,14 +20,13 @@
 - Логирование каждого запроса пользователя в CSV-файл.
 
 ## Структура проекта
-
+'''
 project/
 bot.py # Основной файл бота
 requirements.txt # Список зависимостей
 README.md # Описание проекта
 logs.csv # Логи (создаётся автоматически при первом запуске)
-
-text
+'''
 
 ## Требования
 
@@ -49,36 +48,32 @@ text
 ## Установка (локально или на VM с Ubuntu)
 
 1. Склонировать репозиторий или скопировать файлы:
-
+'''
 git clone <URL_ВАШЕГО_РЕПОЗИТОРИЯ>.git
 cd <имя_папки_проекта>
-
-text
+'''
 
 2. Создать виртуальное окружение и установить зависимости:
-
+'''
 python3 -m venv .venv
 source .venv/bin/activate
 python -m pip install -U pip
 python -m pip install -r requirements.txt
-
-text
+'''
 
 3. Задать токен бота:
 
-
+'''
 export BOT_TOKEN="123456:ABC-DEF..."
 export LOG_PATH="logs.csv" # необязательно, по умолчанию logs.csv
 python bot.py
-
-text
+'''
 
 ## Запуск бота
-
+'''
 source .venv/bin/activate
 python bot.py
-
-text
+'''
 
 После запуска:
 - Откройте ваш бот в Telegram.
